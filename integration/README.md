@@ -22,5 +22,9 @@
   * Homomorphic Encryption에 사용되는 public key를 받아오는 함수
 ## 이벤트 기반 실시간 블록체인 노드
 * 암호화된 데이터 관리 및 접근 제어를 수행하며, 필요에 따라 이벤트 기반으로 동형암호 연산 작업을 워커에게 할당하는 역할
+* path 정의나 rule 정의를 여기에 추가해주시면 좋을 것 같습니다. @dongil @sanghee
 ## 프라이버시 보장 데이터 분석 워커
 * 암호화된 데이터를 기반으로 할당받은 작업을 수행하여 필요한 암호화된 결과를 다시 블록체인에 제공하는 역할
+### HE Job Listener
+* 워커의 AI Network Blockchain address 기반으로 job queue 경로가 정해지며, 해당 경로에 값이 적히는 event를 통해 자신에게 job이 할당되었음을 인지할 수 있다.
+  * Job queue 경로 : `/apps/....`
