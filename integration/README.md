@@ -6,6 +6,20 @@
 ## 동형암호 및 블록체인 키 관리 엔진
 * 브라우저 익스텐션 형태의 어플리케이션을 활용하여 동형암호와 블록체인에 사용되는 키들을 관리하는 부분
 * 동형암호 관련 기능과 블록체인 관련 기능이 들어있는 [ain-js](https://github.com/ainblockchain/ain-js) 라이브러리를 통해 구현
+* 프라이버시 보장 헬스케어 서비스에서 해당 엔진을 통해 데이터를 암호화/복호화 하고, 블록체인에 암호화된 값을 쓰게 된다.
+### APIs
+#### Blockchain
+* `sendTransaction(ref: string, value: any, nonce?: integer, parentTxHash?)`
+  * Blockchain의 `ref` 경로에 `value` 값을 쓰기 위한 transaction을 생성하고 전송하는 함수
+* `getPublicKey()`
+  * Blockchain에 대한 public key를 받아오는 함수
+#### Homomorphic Encryption
+* `encryptData(data: Float64Array)`
+  * Float64Array 형태로 표현된 데이터를 HE 기반의 base64 string 형태로 암호화하는 API
+* `decryptData(data: string)`
+  * Base64 string 형태로 표현된 암호화된 데이터를 복호화하는 API
+* `getHEPublicKey()`
+  * Homomorphic Encryption에 사용되는 public key를 받아오는 함수
 ## 이벤트 기반 실시간 블록체인 노드
 * 암호화된 데이터 관리 및 접근 제어를 수행하며, 필요에 따라 이벤트 기반으로 동형암호 연산 작업을 워커에게 할당하는 역할
 ## 프라이버시 보장 데이터 분석 워커
