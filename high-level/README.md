@@ -4,7 +4,6 @@
 ![image](./target_system.jpg)
 
 ## P2P 클라우드 컴퓨팅 플랫폼 설계 (상위 기획서)
-<img src="./ai_network_architecture.jpg" alt="ai_network_architecture" style="width:600px;"/>
 * 문서 주소: [https://ainetwork.ai/public/architecture.pdf](https://ainetwork.ai/public/architecture.pdf)
 * 내용:
   * 딥 컴퓨팅 아키텍처 (Deep computing architecture)
