@@ -3,6 +3,17 @@
 ## 전체 목표 시스템
 ![image](./target_system.jpg)
 
+## P2P 클라우드 컴퓨팅 플랫폼 설계 (상위 기획서)
+![image](./ai_network_architecture.jpg)
+* 문서 주소: [https://ainetwork.ai/public/architecture.pdf](https://ainetwork.ai/public/architecture.pdf)
+* 내용:
+  * 딥 컴퓨팅 아키텍처 (Deep computing architecture)
+  * 보안 런타임 환경 (Secure runtime environment)
+  * 빅스토리지 (Big storage)
+  * AIN 블록체인 프로토콜 (AIN blockchain protocol)
+  * AIN 프로토콜 상에서의 기계학습 패턴 (Machine learning patterns on AIN protocol)
+  * 보안 설계 (security) 
+
 ## 암호화 키 기반 클라우드 접속 플랫폼 상세 설계
 * 문서 주소: [https://github.com/ainblockchain/ain-js/blob/master/src/he/README.md](https://github.com/ainblockchain/ain-js/blob/master/src/he/README.md)
 * 내용:
